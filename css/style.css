@@ -1,0 +1,226 @@
+html,body,header,ul,li,img,p,h1,h2,h4,nav,div,a,section{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-style: normal;
+    color: #242424;
+    
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    box-shadow: 0px -1px 16px 8px rgb(0 0 0 / 10%);
+    
+}
+.cabecalho_logo{
+    font-size: 30px;
+    color: #292929;
+    margin-left: 65px;
+    cursor:default;
+}
+.cabecalho_nav{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    height: 36px;
+    color: #242424;
+    margin-right: 65px;
+}
+.cabecalho_nav:nth-child(1) strong:hover{
+    text-decoration: underline 1px #292929;
+    cursor: pointer;
+}
+
+.cabecalho_nav li:nth-child(2):hover{
+    text-decoration: underline 1px #242424;
+    cursor: pointer;
+}
+.cabecalho_nav li:nth-child(3):hover{
+    text-decoration: underline 1px #242424;
+    cursor: pointer;
+}
+.cabecalho_nav li:nth-child(4):hover{
+    text-decoration: underline 1px #242424;
+    cursor: pointer;
+}
+.cabecalho_nav:nth-child(1)strong{
+    color: #292929;
+}
+.container{
+    margin: 0 65px;
+    display: flex;
+}
+.vitrine_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 52px;
+}
+.vitrine_cards li{
+    width: 288px;
+    height: 408px;
+    background-color: white;
+    border: 2px solid #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 22px;
+}
+.vitrine_cards li:hover{
+    border: 2px solid #37268C;
+}
+.imagem_vitrine{
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+}
+.descricao{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    padding: 15px;
+}
+.descricao span{
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 0;
+    width: 64px;
+    background-color: #2E245E;
+    padding: 12px 5px;
+    text-align: center;
+
+}
+.vitrine_cards li h2{
+    color: #292929;
+    font-size: 18px;
+}
+.vitrine_cards li p{
+    height: 60px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.vitrine_cards li h4{
+    color: #2E245E;
+    font-size: 14px;
+}
+.button{
+    font-weight: 500;
+    line-height: 16px;
+}
+.button:hover{
+    color: #2E245E;
+    cursor: pointer;
+    text-decoration: underline #2E245E;
+}
+aside{
+    margin-top: 52px;
+    width: 50%;
+}
+.pesquisa{
+    display: flex;
+    gap: 4px;
+}
+.pesquisa input{
+    padding: 11px 2px;
+    background-color: #F5F5F5;
+    border: 1px solid #F5F5F5;
+    width: 100%;
+}
+.pesquisa button{
+    background-color: #2E245E;
+    color: white;
+    border: 1px solid #2E245E;
+}
+.carrinho_de_compras > h2{
+    height: 39px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    background: #37268C;
+}
+input::placeholder {
+    color: #242424;
+  }
+.itens_adicionados{
+    overflow-y: auto;
+    height: 326px;
+}
+.itens_adicionados li{
+    display: flex;
+    background-color: #F5F5F5;
+    height: 130px;
+    padding: 25px;
+    gap: 10px;
+}
+.itens_adicionados img{
+    background-color: white;
+    height: 80px;
+    width: 88px;
+    object-fit: cover;
+}
+
+.itens_adicionados main{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    width: 64%;
+}
+.itens_adicionados main h2{
+    color: #333333;
+}
+.itens_adicionados main > h4{
+    color: #2E245E;
+}
+.itens_adicionados main > p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #242424;
+}
+.itens_adicionados main > p:hover{
+    color: #2E245E;
+    cursor: pointer;
+    text-decoration: underline #2E245E;
+}
+.qtd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #292929;
+    color: white;
+    padding: 0 14px;
+}
+.qtd p{
+    color: white;
+    font-weight: 600;
+}
+.qtd h3{
+    font-weight: 400;
+}
+.valorTotal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #292929;
+    color: white;
+    padding: 0 14px;
+}
+.valorTotal p{
+    color: white;
+    font-weight: 600;
+}
+.valorTotal h3{
+    font-weight: 400;
+}
